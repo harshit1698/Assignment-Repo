@@ -125,7 +125,7 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label>Date of Birth</label>
-                                        <input type="date" class="form-control" name="dob" id="dob">
+                                        <input type="date" class="form-control" name="dob" id="dob" required>
                                     </div>
                                 </div>
 
@@ -133,7 +133,7 @@
                                     <div class="form-group">
                                         <label>Mobile Number</label>
                                         <input type="tel" class="form-control" name="mobile" id="mobile" min="10"
-                                            max="10">
+                                            max="10" placeholder="mobile number">
                                     </div>
                                 </div>
 
@@ -166,13 +166,15 @@
                         <form action="">
                             <div class="form-group">
                                 <label>Enter User id</label>
-                                <input type="text" class="form-control" id="userid" placeholder="Your Email id">
+                                <input type="text" class="form-control" id="userid" placeholder="Your Email id"
+                                    required>
                             </div>
                             <div class="form-group">
                                 <label>Enter Your Password</label>
-                                <input type="text" class="form-control" id="logpassword" placeholder="Your Password">
+                                <input type="text" class="form-control" id="logpassword" placeholder="Your Password"
+                                    required>
 
-                                <span class="text-danger" hidden>Incorrect User id or Password</span>
+                                <span class="text-danger">Incorrect User id or Password</span>
 
                             </div>
 
